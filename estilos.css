@@ -1,0 +1,48 @@
+/*-------------
+selectores
+-------------*/
+
+/*-------------
+selector de tipo
+-------------*/
+mark {
+    background-color: blue;
+}
+
+/*-------------
+selector por id
+-------------*/
+#Item1 {
+    background-color: beige;
+}
+
+/*-------------
+selector por clase
+-------------*/
+.item2 {
+    background-color: antiquewhite;
+}
+
+/*-selectores anidados*/
+ul#lista1.lista1 > li > span {
+    background-color: rgb(197, 158, 235);
+}
+
+/*-selectores multilpes*/
+.parrafo1,.texto1  {
+    color: purple;
+}
+
+/*-selectores por atributos*/
+a[href='#'] {
+    color: brown;
+}
+
+a[href^='www'] {
+    color: blanchedalmond;
+
+}
+
+a[href$="org"] {
+    color: gray;
+}
